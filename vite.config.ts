@@ -1,6 +1,7 @@
 import { defineConfig, PluginOption } from 'vite';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
 import postcss from 'postcss';
+import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -20,4 +21,10 @@ export default defineConfig({
 		outDir: 'docs',
 	},
 	base: './',
+	// унылый костыль для импортов вида "src/.."
+	resolve: {
+        alias: {
+            src: path.resolve('src/'),
+        },
+    }
 })

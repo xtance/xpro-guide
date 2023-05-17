@@ -1,15 +1,17 @@
-<script>
-    import Key from "../lib/Key.svelte";
+<script lang="ts">
+    import Title from "../lib/Title.svelte";
+	import Key from "../lib/Key.svelte";
+    import Subtitle from "../lib/Subtitle.svelte";
 
 </script>
-<div class="">
-	Добро пожаловать
-</div>
-<div>
+
+<Title>
+	Добро пожаловать <br>
 	на проект «ИксПро»!
-</div>
+</Title>
+
 <img class="my-8" src="https://xpro.pw/favicon.ico" />
 
-<div class="opacity-50 text-center text-4xl leading-10 mt-4">
+<Subtitle>
 	Используйте клавиши <Key>🠔</Key> и <Key>➞</Key> для управления
-</div>
+</Subtitle>

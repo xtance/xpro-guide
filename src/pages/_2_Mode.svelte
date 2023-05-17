@@ -1,8 +1,26 @@
-<script>
-    import Key from "../lib/Key.svelte";
+<script lang="ts">
+    import Title from "../lib/Title.svelte";
+	import Key from "../lib/Key.svelte";
+    import Paragraph from "../lib/Paragraph.svelte";
+    import Subtitle from "src/lib/Subtitle.svelte";
 
 </script>
-<div class="">
+
+<Title>
+	Что это?
+</Title>
+
+<Paragraph>
+	ИксПро - сервер GTA с элементами RPG и DM.<br>
+	Перестрелки, гонки, гринд, и множество других занятий.<br>
+	Сейчас расскажем!
+</Paragraph>
+
+<Subtitle>
+	Нажмите <Key>➞</Key> чтобы продолжить
+</Subtitle>
+
+<!-- <div class="">
 	Управление
 </div>
 
@@ -41,4 +59,4 @@
 <div class="text-2xl opacity-50">
 	Ещё больше кнопок где-то слева сбоку.
 </div>
-
+ -->
