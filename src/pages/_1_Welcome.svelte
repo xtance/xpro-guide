@@ -10,7 +10,7 @@
 	на проект «ИксПро»!
 </Title>
 
-<img class="my-8" src="https://xpro.pw/favicon.ico" />
+<img class="my-8" src="favicon.ico" />
 
 <Subtitle>
 	Используйте клавиши <Key>🠔</Key> и <Key>➞</Key> для управления

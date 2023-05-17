@@ -8,6 +8,9 @@
 	import _4 from './pages/_4_Weapons.svelte';
 	import _5 from './pages/_5_Events.svelte';
 	import _6 from './pages/_6_Training.svelte';
+	import _7 from './pages/_7_Vehicles.svelte';
+	import _8 from './pages/_8_Entertaining.svelte';
+	import _9 from './pages/_9_Bye.svelte';
 
 	const pages = [
 		_1,
@@ -16,6 +19,9 @@
 		_4,
 		_5,
 		_6,
+		_7,
+		_8,
+		_9,
 	]
 
 	let page = pages[0];

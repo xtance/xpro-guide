@@ -7,7 +7,7 @@
 </script>
 
 <Title>
-	Где достать оружие
+	Где достать оружие?
 </Title>
 
 <Paragraph>
