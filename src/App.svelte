@@ -2,26 +2,28 @@
     import Center from "./lib/Center.svelte";
     import { onMount } from "svelte";
 
-	import _1 from './pages/_1_Welcome.svelte';
+	import _0 from './pages/_0_Welcome.svelte';
+	import _1 from './pages/_1_Description.svelte';
 	import _2 from './pages/_2_Mode.svelte';
 	import _3 from './pages/_3_Fraction.svelte';
 	import _4 from './pages/_4_Weapons.svelte';
 	import _5 from './pages/_5_Events.svelte';
-	import _6 from './pages/_6_Training.svelte';
 	import _7 from './pages/_7_Vehicles.svelte';
 	import _8 from './pages/_8_Entertaining.svelte';
-	import _9 from './pages/_9_Bye.svelte';
+	import _9 from './pages/_9_Training.svelte';
+	import _10 from './pages/_10_Bye.svelte';
 
 	const pages = [
+		_0,
 		_1,
 		_2,
 		_3,
 		_4,
 		_5,
-		_6,
 		_7,
 		_8,
 		_9,
+		_10,
 	]
 
 	let page = pages[0];
@@ -32,7 +34,7 @@
 		index = currentIndex + add
 		if (index < 0) index = 0;
 		if (index >= arr.length) index = arr.length - 1;
-		console.log(`NextIndex = ${index}`);
+		console.log(`NextIndex = ${index}`, arr);
 		return arr[index];
 	}
 
