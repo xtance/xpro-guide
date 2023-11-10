@@ -2,6 +2,7 @@
     import Key from "src/lib/Key.svelte";
 	import Paragraph from "src/lib/Paragraph.svelte";
     import Subtitle from "src/lib/Subtitle.svelte";
+    import SwitchButton from "src/lib/SwitchButton.svelte";
 	import Title from "src/lib/Title.svelte";
 </script>
 
@@ -13,7 +14,7 @@
 
 <Subtitle>
 	Уже решили, куда поедете первым делом? <br>
-	Возьмите бесплатный байк у арендатора справа от вас.
+	Возьмите мотоцикл у арендатора - они отмечены на карте флажком.
 </Subtitle>
 
 <Subtitle>
