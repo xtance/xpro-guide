@@ -3,7 +3,6 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 import postcss from 'postcss';
 import path from 'path';
 
-// https://vitejs.dev/config/
 export default defineConfig({
 	server: {
 		port: 7878,
